@@ -30,7 +30,7 @@ const NavBar = () => {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo">
+          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             TRVL <FaTypo3 />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
